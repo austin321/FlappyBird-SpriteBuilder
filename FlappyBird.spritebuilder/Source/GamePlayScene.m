@@ -7,7 +7,7 @@
 - (void)initialize
 {
     // your code here
-character = (Character*)[CCBReader load:@"flappy"];-(void)update:(CCTime)delta
+character = (Character*)[CCBReader load:@"Flappybird"];-(void)update:(CCTime)delta
     [physicsNode addChild:character];{
     // put update code here
 }
